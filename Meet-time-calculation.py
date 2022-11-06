@@ -50,8 +50,6 @@ def process_text_files():
     out_file = update_o_file(out_file) #add the lacking info to output file
     in_file.close()
 
-
-
 def in_file():
     return open('road_maintain_info.txt','r')
 
@@ -64,9 +62,6 @@ list3 = [2,60,150]
 info_list.append(list3)
 list1 = info_list[0]
 list2 = info_list[1]
-
-
-
 
 ##define functions for displaying command-line menu
 def print_menu():
