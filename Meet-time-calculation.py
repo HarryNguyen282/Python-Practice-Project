@@ -1,7 +1,3 @@
-##student name: Tien Dat Nguyen
-##student ID: u3234033
-##Date created: 29/03/2022
-##Date last changed: 24/04/2022
 ##This program calculates the time two cars meet in multiple situations
 ##Input: road_maintain_info.txt, output: new_RW_info.txt
 
@@ -146,9 +142,6 @@ def t6(t,hour1):
         hour1 = hour[0]
     return t,hour1
 
-
-
-      
 while start_program:
     process_text_files()
     print_menu()
@@ -160,8 +153,7 @@ while start_program:
     except ValueError:
         print('Wrong input. Please enter a number!')
         sys.exit()
-
-            
+           
     if option == 1: #option 1 is same in the command-line menu
         print_menu2()
         option1 =''
@@ -190,9 +182,7 @@ while start_program:
             print('{0:.2f} {1:}'.format(t,hour1))
         else:
             print('Invalid option. Please enter a number between 1 and 3.')
-                
-                
-            
+                  
     elif option == 2: #option 2 is reverse in the command-line menu
         print_menu1()
         option2 = ''
@@ -221,8 +211,7 @@ while start_program:
             print('{0:.2f} {1:}'.format(t,hour1))
         else:
             print('Invalid option. Please enter a number between 1 and 3.')
-
-                         
+                       
     elif option == 3:
         exit()
             
@@ -322,13 +311,4 @@ Velocity of Car B:    80km/h \n Distance from A to B: 500km", fg="red")
     btnCalculate.grid(row=5,column=1,padx=5,pady=5)
     
 window.mainloop()   
-
-
-
-
-        
-
-    
-
-
 
